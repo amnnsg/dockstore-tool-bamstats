@@ -3,10 +3,10 @@
 #############################################################
 
 # Set the base image to Ubuntu
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 # File Author / Maintainer
-MAINTAINER Brian OConnor <briandoconnor@gmail.com>
+MAINTAINER Edico Hello Test <just-testing-123@gmail.com>
 
 # Setup packages
 USER root
