@@ -2,7 +2,7 @@
 # Dockerfile to build a sample tool container for BAMStats
 #############################################################
 
-# Set the base image to Ubuntu
+# Set the base image to Ubuntu originally FROM ubuntu:14.04
 FROM ubuntu:16.04
 
 # File Author / Maintainer
