@@ -20,9 +20,9 @@ RUN unzip BAMStats-1.25.zip && \
 COPY bin/bamstats /usr/local/bin/
 RUN chmod a+x /usr/local/bin/bamstats
 
-# switch back to the ubuntu user so this tool (and the files written) are not owned by root
-RUN groupadd -r -g 1000 ubuntu && useradd -r -g ubuntu -u 1000 -m ubuntu
-USER ubuntu
+# switch back to the ubdocker user so this tool (and the files written) are not owned by root originally ubuntu user
+RUN groupadd -r -g 1000 ubdocker && useradd -r -g ubdocker -u 1000 -m ubdocker
+USER ubdocker
 
 # by default /bin/bash is executed
 CMD ["/bin/bash"]
