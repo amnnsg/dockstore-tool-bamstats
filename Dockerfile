@@ -8,7 +8,7 @@ FROM ubuntu:16.04
 # File Author / Maintainer
 MAINTAINER Edico Hello Test original by briandoconnor <just-testing-123@gmail.com>
 
-# Setup packagesoriginally openjdk-7-jre
+# Setup packages originally openjdk-7-jre
 USER root
 RUN apt-get -m update && apt-get install -y wget unzip openjdk-8-jre zip
 
