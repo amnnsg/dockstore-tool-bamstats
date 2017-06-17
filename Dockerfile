@@ -21,8 +21,8 @@ COPY bin/bamstats /usr/local/bin/
 RUN chmod a+x /usr/local/bin/bamstats
 
 # switch back to the ubdocker user so this tool (and the files written) are not owned by root originally ubuntu user
-RUN groupadd -r -g 1350 ubdocker && useradd -r -g ubdocker -u 1350 -m ubdocker
-USER ubdocker
+RUN groupadd -r -g 1001 ubtest && useradd -r -g ubtest -u 1001 -m ubtest
+USER ubtest
 
 # by default /bin/bash is executed
 CMD ["/bin/bash"]
