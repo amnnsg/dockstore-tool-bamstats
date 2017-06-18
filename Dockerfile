@@ -6,7 +6,7 @@
 FROM ubuntu:16.04
 
 # File Author / Maintainer
-MAINTAINER Edico Hello Test original by briandoconnor <just-testing-123@gmail.com>
+MAINTAINER Edico Hello Test for ubuntu 16.04 original by briandoconnor <just-testing-123@gmail.com>
 
 # Setup packages originally openjdk-7-jre
 USER root
