@@ -9,9 +9,8 @@ doc: |
     A Docker container for the BAMStats command. See the [BAMStats](http://bamstats.sourceforge.net/) website for more information.
 
 dct:creator:
-  "@id": "http://orcid.org/0000-0002-7681-6415"
-  foaf:name: Brian O'Connor
-  foaf:mbox: "mailto:briandoconnor@gmail.com"
+  foaf:name: Edico Hello Test for ubuntu 16.04 original by briandoconnor
+  foaf:mbox: "mailto:just-testing-123@gmail.com"
 
 requirements:
   - class: DockerRequirement
